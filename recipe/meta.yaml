@@ -17,26 +17,24 @@ source:
   md5:  {{ md5_zip }}  # [win]
 
 build:
-  number: 1
+  number: 2
   features:
     - vc9  # [win and py27]
     - vc10  # [win and py34]
     - vc14  # [win and py35]
-  script_env:
-    - LOCALAPPDATA  # [win and py27]
 
 requirements:
   build:
     - python     
     - sip
-    - qt 4.8.*
-    - pyqt 4.11.*
+    - qt 5.6.*
+    - pyqt 5.6.*
 
   run:
     - python
     - sip
-    - qt 4.8.*
-    - pyqt 4.11.*
+    - qt 5.6.*
+    - pyqt 5.6.*
 
 about:
   home: https://www.riverbankcomputing.com/software/qscintilla/intro
