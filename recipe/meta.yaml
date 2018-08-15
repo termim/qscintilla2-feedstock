@@ -1,6 +1,6 @@
 
 {% set name = "qscintilla2" %}
-{% set version = "2.9.3" %}
+{% set version = "2.10.7" %}
 {% set md5 = "3b1cdbce9ef6c28cd868bcc58219f96e" %}
 {% set md5_zip = "2b0da639a8ec3d4a37c69a5539d22569" %}
 
@@ -27,14 +27,14 @@ requirements:
   build:
     - python     
     - sip
-    - qt 5.6.*
-    - pyqt 5.6.*
+    - qt 5.9.*
+    - pyqt 5.9.*
 
   run:
     - python
     - sip
-    - qt 5.6.*
-    - pyqt 5.6.*
+    - qt 5.9.*
+    - pyqt 5.9.*
 
 about:
   home: https://www.riverbankcomputing.com/software/qscintilla/intro
